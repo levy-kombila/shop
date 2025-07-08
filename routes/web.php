@@ -19,3 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/home',[SiteController::class, 'home'])->name('site:home');
+
+Route::get('/contact', function () {
+    return view('contact', ['email' => 'contact@shop241.com']);
+});

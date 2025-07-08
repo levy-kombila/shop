@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
 	
 <!-- Mirrored from shreethemes.net/jobstock-landing-2.2/jobstock/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jul 2024 09:40:57 GMT -->
@@ -6,14 +7,10 @@
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-        <title>{{$app_name? $app_name : 'shop 241'}}</title>
-		<link rel="icon" type="image/x-icon" href="{{URL::to('shop/assets/img/favicon.png')}} ">
-		
-        <!-- Custom CSS -->
-        <link href="{{URL::to('shop/assets/css/styles.css')}}" rel="stylesheet">
-		
-		<!-- Colors CSS -->
-        <link href="{{URL::to('shop/assets/css/colors.css')}}" rel="stylesheet">
+        <title>@yield('title', 'Shop 241')</title>
+		<link rel="icon" type="image/x-icon" href="{{ asset('shop/assets/img/favicon.png') }}">
+    	<link href="{{ asset('shop/assets/css/styles.css') }}" rel="stylesheet">
+    	<link href="{{ asset('shop/assets/css/colors.css') }}" rel="stylesheet">
 		
     </head>
 	
