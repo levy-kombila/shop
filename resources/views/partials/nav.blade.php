@@ -2,7 +2,7 @@
             <!-- Top header  -->
             <!-- ============================================================== -->
             <!-- Start Navigation -->
-			<div class="header header-transparent change-logo">
+			<div class="header is-dark change-logo">
 				<div class="container">
 					<nav id="navigation" class="navigation navigation-landscape">
 						<div class="nav-header">
@@ -22,7 +22,7 @@
 							
 								<li class="active"><a href="JavaScript:Void(0);">Home<span class="submenu-indicator"></span></a>
 									<ul class="nav-dropdown nav-submenu">
-										<li><a class="active" href="index.html">Home Layout 1</a></li>
+										<li><a class="active" href="home/">Home 1</a></li>
 										<li><a href="home-2.html">Home Layout 2</a></li>
 										<li><a href="home-3.html">Home Layout 3</a></li>
 										<li><a href="home-4.html">Home Layout 4</a></li>
@@ -127,7 +127,7 @@
 								
 								<li><a href="JavaScript:Void(0);">Pages<span class="submenu-indicator"></span></a>
 									<ul class="nav-dropdown nav-submenu">
-										<li><a href="about-us.html">About Us</a></li> 
+										<li><a href="about/">About Us</a></li> 
 										<li><a href="404.html">Error Page</a></li>
 										<li><a href="checkout.html">Checkout</a></li>										
 										<li><a href="blog.html">Blogs Page</a></li>                                    
@@ -135,7 +135,7 @@
 										<li><a href="privacy.html">Terms & Privacy</a></li> 
 										<li><a href="pricing.html">Pricing</a></li>  
 										<li><a href="faq.html">FAQ's</a></li>
-										<li><a href="contact.html">Contacts</a></li>
+										<li><a href="contact/">Contacts</a></li>
 									</ul>
 								</li>
 								

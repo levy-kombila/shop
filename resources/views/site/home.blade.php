@@ -31,7 +31,7 @@
 			<!-- ============================ Hero Banner  Start================================== -->
 			<div class="image-cover hero-header primary-bg-dark" data-overlay="0">
 				<div class="position-absolute top-0 end-0 z-0">
-					<img src="assets/img/shape-3-soft-light.svg" alt="SVG" width="500">
+					<img src="{{ asset('shop/assets/img/shape-3-soft-light.svg')}}" alt="SVG" width="500">
 				</div>
 				<div class="position-absolute top-0 start-0 me-10 z-0">
 					<img src="assets/img/shape-1-soft-light.svg" alt="SVG" width="250">

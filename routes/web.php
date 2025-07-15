@@ -19,7 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/home',[SiteController::class, 'home'])->name('site:home');
+Route::get('/about', [SiteController::class, 'about'])->name('site:about');
+Route::get('/contact', [SiteController::class, 'contact'])->name('site:contact');
 
-Route::get('/contact', function () {
-    return view('contact', ['email' => 'contact@shop241.com']);
-});
